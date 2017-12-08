@@ -1,0 +1,165 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	list-style: "float:right;";
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: right;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family: "Georgia", serif;
+}
+
+li a:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+body {	
+	background-color: black;
+	max-width: 100%;
+}
+
+section {
+  	width: 100%; 	
+  	display: table;
+  	margin: 0;
+  	height: 100vh;
+  	max-width: 100%;
+}
+
+#content {
+	text-align: center;
+	font-family: "Georgia", serif;
+	color: white;
+	font-size: 20px;
+}
+
+#textCenter {
+	padding-top: 200px;
+}
+
+#name {
+	font-size: 60px;
+	font-family: Baskerville, "Baskerville Old Face", serif;
+}
+
+#border {
+	padding: 6px;
+	border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    display: inline-block;
+    color:white;
+}
+
+#border:hover {
+	padding: 8px;
+	border-width: 4px;
+    border-radius: 15px;
+    text-decoration: none;
+    color:white;
+
+}
+
+#git {
+	font-size: 40px;
+	color:white;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+#gitborder {
+	padding: 10px;
+    border: 10px solid white;
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+
+
+}
+
+#gitborder h1{
+	text-decoration: none;
+}
+
+#fuckdis {
+	width:300px;
+	margin-top: 200px;
+	margin-left: 100px;
+	display:block;
+}
+
+#projects {
+	display: block;
+	float: left;
+	color:white;
+	font-size: 20px;
+	text-indent: 5em;
+	
+}
+
+#projects h1{
+	text-align: center;
+}
+
+#contact h1{
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	font-size: 50px;
+}
+
+#contact #content {
+	text-align: center;
+}
+
+/* Style all font awesome icons */
+.icon {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.icon:hover {
+    opacity: 0.7;
+}
+
+
+
+.section1 {
+    background-image:    url(images/me.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.section2 {
+	background: linear-gradient(to bottom, #696969 0%, #cc6699 100%);
+
+}
+
+.section3 {
+	background-image:    url(images/space.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;;
+
+}
